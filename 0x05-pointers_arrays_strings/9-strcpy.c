@@ -1,21 +1,17 @@
-#include "main.h"
+nclude "main.h"
 #include <stdio.h>
-
 /**
- *print_array - print an array
- *@n: elements of array
- *@a: array pointer
+ *_strcpy - copy string including the terminating null byte
+ *@dest: destination of string
+ *@src: source of string
  *
- *Return: nothing
+ *Return: the value dest
  */
-void print_array(int *a, int n)
+char *_strcpy(char *dest, char *src)
 {
-int b;
-for (b = 0; b < n; b++)
-{
-printf("%d", a[b]);
-if (b < (n - 1))
-printf(", ");
-}
-printf("\n");
+int i = 0;
+for (i = 0; src[i]; i++)
+dest[i] = src[i];
+dest[i] = src[i];
+return (dest);
 }
