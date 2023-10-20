@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 #include <stdio.h>
 /**
  *_strcpy - copy string including the terminating null byte
