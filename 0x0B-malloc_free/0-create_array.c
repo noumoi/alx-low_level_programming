@@ -6,12 +6,13 @@
  * with a specific char.
  * @size: This is the length of the array
  * @c: This is the input character
- * Return: An Array Initialized with the specific char
+ * * Return: An Array Initialized with the specific char
  */
 char *create_array(unsigned int size, char c)
 {
 unsigned int a;
 char *s;
+
 s = (char *) malloc(size * sizeof(char));
 if (s == NULL)
 return (NULL);
