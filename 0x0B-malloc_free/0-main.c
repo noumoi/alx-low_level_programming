@@ -32,7 +32,6 @@ void simple_print_buffer(char *buffer, unsigned int size)
 
 /**
  * main - check the code for ALX School students.
- *
  * Return: Always 0.
  */
 int main(void)
@@ -42,7 +41,7 @@ int main(void)
     buffer = create_array(98,'H');
     if  (buffer == NULL)
     {
-        printf("failed to allocate memor\n");
+        printf("failed to allocate memory\n");
         return (1);
     }
     simple_print_buffer(buffer, 98);
