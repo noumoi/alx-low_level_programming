@@ -13,9 +13,9 @@
  */
 struct dog
 {
-README.md char *name;
-README.md float age;
-README.md char *owner;
+char *name;
+float age;
+char *owner;
 };
 /**
  * struct dog_t - this structure store few dog's characteristics
@@ -27,9 +27,9 @@ README.md char *owner;
  */
 typedef struct dog_t
 {
-README.md char *name;
-README.md float age;
-README.md char *owner;
+char *name;
+float age;
+char *owner;
 } dog_t;
 
 /* ************ FIN ESTRUCTURAS ******************/
