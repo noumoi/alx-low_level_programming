@@ -16,7 +16,7 @@ int (*result)(int, int);
 
 if (argc != 4)
 {
-printf("%s\n", Error);
+printf("%s\n", "Error");
 exit(98);
 }
 
@@ -33,7 +33,7 @@ result = get_op_func(argv[2]);
 
 if (result == NULL)
 {
-printf("%s\n", Error);
+printf("%s\n", "Error");
 exit(99);
 }
 
